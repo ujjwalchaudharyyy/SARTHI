@@ -22,6 +22,8 @@ import {
   BrainCircuit,
 } from 'lucide-react';
 
+import { Background3D } from '../components/layout/Background3D';
+
 export const LandingPage: React.FC = () => {
   const { setCurrentView, setIsDemoTourActive, setDemoStepIndex } = useSimulation();
   const { isAuthenticated } = useAuth();
@@ -41,7 +43,10 @@ export const LandingPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#080d1a] text-slate-100 selection:bg-sky-500 selection:text-white">
+    <div className="min-h-screen bg-[#080d1a] text-slate-100 selection:bg-sky-500 selection:text-white relative overflow-hidden">
+      {/* Dynamic Telemetry & National Mesh Background */}
+      <Background3D />
+
       {/* Top Navigation */}
       <nav className="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50 px-4 sm:px-8 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">

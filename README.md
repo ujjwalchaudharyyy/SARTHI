@@ -4,6 +4,9 @@
 ### **AI-Powered Intelligent Road Safety, Traffic Intelligence & e-Challan Infrastructure Platform**
 *Aligned with the Ministry of Road Transport & Highways (MoRTH) & Digital India Initiative*
 
+# DEPLOYED PROTOTYPE 
+https://eclectic-gnome-1e57b3.netlify.app
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)

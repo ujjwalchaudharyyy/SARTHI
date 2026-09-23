@@ -223,5 +223,5 @@ For live demonstrations, presentations, or collaboration proposals:
 
 </div>
 
-# prototype 
+# PROTOTYPE
 <img width="1912" height="1032" alt="image" src="https://github.com/user-attachments/assets/1a1f48da-6916-49a7-a738-c071dddb4351" />
